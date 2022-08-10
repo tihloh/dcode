@@ -3,7 +3,7 @@
     "description": "DCode(Divine Code) is a custom personal framework for my projects including libraries of functions with user management.",
     "type": "library",
     "keywords": ["dcode","divine code"],
-    "homepage": "https://github.com/Seldaek/monolog",
+    "homepage": "https://github.com/tihloh/dcode",
     "license": "MIT",
     "authors": [
         {
@@ -13,6 +13,11 @@
         }
     ],
     "require": {
-        "php": ">=7.4"
+        "php": ">=7.3"
+    },
+    "autoload": {
+        "classmap": [
+            "dcode/"
+        ]
     }
 }
